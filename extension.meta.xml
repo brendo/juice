@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="juice" status="experimental" xmlns="http://getsymphony.com/schemas/extension/1.0">
+	<name>Juice</name>
+	<description>Juice is a preformance booster for Symphony's backend.</description>
+	<repo type="github">https://github.com/brendo/juice</repo>
+	<types>
+		<type>Field Types</type>
+	</types>
+	<authors>
+		<author>
+			<name github="brendo" symphony="brendo">Brendan Abbott</name>
+			<website>http://bloodbone.ws</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.1" date="2013-07-09" min='2.3.3'>
+			- Basic concatenation of all JS/CSS assets in the backend
+		</release>
+	</releases>
+</extension>
